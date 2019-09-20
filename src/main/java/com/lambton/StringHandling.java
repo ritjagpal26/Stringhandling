@@ -39,30 +39,23 @@ public class StringHandling {
             String collegName = "Lambton College in Toronto";
             // find the length
 
-            System.out.println( collegName.length());
+            System.out.println(collegName.length());
 
             //find the word college
 
-            System.out.println( collegName.subSequence(8,16));
-            System.out.println( collegName.indexOf("Toronto"));
-            System.out.println( collegName.toUpperCase());
-            System.out.println( collegName.toLowerCase());
-            System.out.println( collegName.charAt(10));
-            System.out.println( collegName.replace("Toronto", "New York"));
-            System.out.println( collegName.substring(11,26));
-            System.out.println( collegName.toCharArray());
-            System.out.println( collegName.concat(" 265 Yorkland Blvd, New York"));
+            System.out.println(collegName.subSequence(8, 16));
+            System.out.println(collegName.indexOf("Toronto"));
+            System.out.println(collegName.toUpperCase());
+            System.out.println(collegName.toLowerCase());
+            System.out.println(collegName.charAt(10));
+            System.out.println(collegName.replace("Toronto", "New York"));
+            System.out.println(collegName.substring(11, 26));
+            System.out.println(collegName.toCharArray());
+            System.out.println(collegName.concat(" 265 Yorkland Blvd, New York"));
 
-            int a[] = { 1,2,3,4,5};
-            int b[] = new int[]{6,7,8,9,0};
-            int c[]=new int[10];
-
-
-
-
-
-
-
+            int a[] = {1, 2, 3, 4, 5};
+            int b[] = new int[]{6, 7, 8, 9, 0};
+            int c[] = new int[10];
 
 
         }
