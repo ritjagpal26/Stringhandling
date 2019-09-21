@@ -1,9 +1,13 @@
 package com.lambton;
 
+import javafx.scene.input.DataFormat;
 import sun.awt.geom.AreaOp;
 import sun.security.util.Length;
 
+import java.text.DateFormat;
 import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public class StringHandling {
@@ -74,8 +78,8 @@ public class StringHandling {
             char cc[]=collegName.toCharArray();
             char rev[]= new char[c.length];
             int cnt=0;
-k
-          /*for(int i=cc.length-1; i>=0 ;i--)
+
+          /*for(int i=cc.length-1; i>=0 ;i--)k
             {
               //char aa= (char) c[i];
               rev[cnt++] = cc[i];
@@ -84,7 +88,9 @@ k
             String reversestering =new String(rev);
             System.out.println("reverese String : " +reversestering);*/
 
-
+            DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+            Date dateobj = new Date();
+            System.out.println(df.format(dateobj));
 
         }
     }
