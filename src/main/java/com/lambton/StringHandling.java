@@ -1,6 +1,10 @@
 package com.lambton;
 
+import sun.awt.geom.AreaOp;
 import sun.security.util.Length;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
 
 public class StringHandling {
     public static void main(String[] args) {
@@ -56,6 +60,30 @@ public class StringHandling {
             int a[] = {1, 2, 3, 4, 5};
             int b[] = new int[]{6, 7, 8, 9, 0};
             int c[] = new int[10];
+            String s= String.format("%d %s %s", 10 ,"Hello" , "world");
+
+            Scanner scanner=new Scanner(System.in);
+            System.out.printf("Enter college name :");
+            String pattern="###,##,##,00" ;
+            DecimalFormat decimalFormat=new DecimalFormat();
+            decimalFormat.applyPattern(pattern);
+
+            int value=12345678;
+            String output= decimalFormat.format(value);
+        System.out.printf(value+" "+pattern+" "+output);
+            char cc[]=collegName.toCharArray();
+            char rev[]= new char[c.length];
+            int cnt=0;
+k
+          /*for(int i=cc.length-1; i>=0 ;i--)
+            {
+              //char aa= (char) c[i];
+              rev[cnt++] = cc[i];
+               //System.out.println(cc[1]);
+            }
+            String reversestering =new String(rev);
+            System.out.println("reverese String : " +reversestering);*/
+
 
 
         }
